@@ -1,0 +1,37 @@
+{
+  "name": "electric-fan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Electric Fan",
+  "author": {
+    "email": "me@yunyoujun.cn",
+    "name": "YunYouJun",
+    "url": "https://www.yunyoujun.cn"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.ts,.json,.vue --fix ."
+  },
+  "dependencies": {
+    "@gtm-support/vue-gtm": "^1.0.0",
+    "element-plus": "^1.0.2-beta.53",
+    "element-theme-ink": "^1.1.4",
+    "vue": "^3.1.2",
+    "vue-about-me": "^1.1.4",
+    "workbox-window": "^6.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.4",
+    "@vue/compiler-sfc": "^3.1.2",
+    "@yunyoujun/eslint-config": "^0.2.1",
+    "eslint": "^7.29.0",
+    "sass": "^1.35.1",
+    "typescript": "^4.3.5",
+    "vite": "^2.3.8",
+    "vite-plugin-pwa": "0.8.1",
+    "vite-plugin-style-import": "^1.0.1",
+    "vue-gtag": "^2.0.1"
+  }
+}
